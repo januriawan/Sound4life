@@ -1,0 +1,98 @@
+﻿<Page
+    x:Class="SoundCloudAPI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SoundCloudAPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="640"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" SelectionChanged="TextBlock_SelectionChanged" Margin="178,107,300,0" Text="Sound4Life" Opacity="0.8" Height="57" Width="248"/>
+
+        <Grid Width="500" Height="500" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Width="500" Height="200" Grid.Row="0">
+                <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+            </Grid>
+            <Grid Width="500" Height="100" VerticalAlignment="Bottom"  Grid.Row="1"/>
+
+
+
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,210,0,158"/>
+        <Grid Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left">
+            <MediaElement AudioCategory="BackgroundCapableMedia" x:Name="myPlayer" RequestedTheme="Default" CompositeMode="MinBlend"  Width="300" MediaEnded="mediaEndedEvent"></MediaElement>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="56*"/>
+                <ColumnDefinition Width="11*"/>
+                <ColumnDefinition Width="574*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Foreground="White" FontSize="26.667" Margin="-84,-43,84,43" Grid.ColumnSpan="3">Songs List</TextBlock>
+            <ListBox x:Name="testList" ItemsSource="{Binding}" FontFamily="Global User Interface" SelectionChanged="musicchanged" Margin="-84,0,84,20" Grid.ColumnSpan="3">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Tag="" Text="{Binding title}" Margin="5" FontFamily="Global User Interface"/>
+                            <TextBlock Tag="" Text="{Binding genre}" Margin="5" FontFamily="Global User Interface" FontSize="9"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock  Text="Streamable: " Margin="5" FontFamily="Global User Interface" FontSize="9"/>
+                                <TextBlock  Text="{Binding streamable}" Margin="5" FontFamily="Global User Interface" FontSize="9"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="2" Margin="0,00,0,0">
+            <TextBlock Foreground="White" FontSize="26.667" Margin="-85,26,85,-26">PlayLists</TextBlock>
+            <ListBox x:Name="AllPlayListTracks" ItemsSource="{Binding}" SelectionChanged="mainPlayList" FontFamily="Global User Interface" Margin="-85,64,85,-44" >
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Width="600" Height="50" Tag="{Binding id}" VerticalAlignment="Center" HorizontalAlignment="Left" >
+                            <TextBlock FontFamily="Global User Interface" Text="{Binding title}" Margin="0,20,20,0" ></TextBlock>
+
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </Grid>
+
+        <ProgressBar x:Name="PBar" HorizontalAlignment="Left" Height="15" Margin="10,10,0,0" VerticalAlignment="Top" Width="1356" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" IsIndeterminate="True" Visibility="Collapsed" />
+        <TextBox x:Name="SCNameField" Grid.Row="2" RequestedTheme="Dark" Margin="67,10,232,418" Width="426" Height="41" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Button HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Click="Button_Click" Margin="64,75,0,355" Content="Submit" Grid.Row="2" VerticalAlignment="Top"/>
+        <TextBlock FontSize="16" Margin="67,68,193,0" Grid.Row="1">
+        	<Run Text="Enter Sound Cloud Username:"/>
+        </TextBlock>
+        <Button x:Name="stopButton" Margin="193,312,0,0" Click="Button_Click_4" IsEnabled="False" FontFamily="Global User Interface" Content="Stop Track" Grid.Row="2" VerticalAlignment="Top"/>
+        <Button x:Name="plybutton" Margin="64,312,0,118" Click="Button_Click_2" IsEnabled="False" Content="Play Track" Grid.Row="2" VerticalAlignment="Top"/>
+        <TextBlock Text="Current Status:" FontSize="48" Margin="67,181,159,187" Grid.Row="2" SelectionChanged="TextBlock_SelectionChanged_1" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="txtStatus" Text="Current Status:" Margin="67,239,159,129" FontSize="14.667" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <CompositeTransform/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="180" Margin="42,67,0,0" VerticalAlignment="Top" Width="136" Source="Assets/Logo.png" Grid.RowSpan="2"/>
+
+
+
+    </Grid>
+</Page>

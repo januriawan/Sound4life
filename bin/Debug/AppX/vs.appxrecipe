@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JANURIAWAN</Machine>
+    <WindowsUser>Januriawan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>fe7a37d0-42c9-4367-8a9e-9655dba5e804</PackageIdentityName>
+    <IntermediateOutputPath>D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>BA4AA16FA780BFC31519F02BCC91A5B4BEB07060E0319CB68FF9A8416165D9D8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fe7a37d0-42c9-4367-8a9e-9655dba5e804_1.0.0.0_neutral__ntwqk9bpvms1t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fe7a37d0-42c9-4367-8a9e-9655dba5e804_ntwqk9bpvms1t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fe7a37d0-42c9-4367-8a9e-9655dba5e804</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=rahber</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-29T10:41:44.519</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\bin\Debug\Sound4Life.exe">
+      <PackagePath>Sound4Life.exe</PackagePath>
+      <Modified>2015-12-29T10:41:44.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2014-06-06T00:45:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-24T05:31:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-24T05:33:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-24T05:33:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-24T05:34:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\bin\Debug\Sound4Life.xr.xml">
+      <PackagePath>Sound4Life.xr.xml</PackagePath>
+      <Modified>2015-12-26T12:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-12-29T10:32:01.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-12-29T10:32:01.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C#\Soundcloud API Sample\C#\SoundCloudAPI\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-12-29T10:32:04.154</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoundCloudAPI.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAIAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoundCloudAPI.MainPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAmAYACAgIAAAEACRAAgAEIAAAAAAAE0AAACCAAgAA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoundCloudAPI.User" Collapsed="true">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAEBEAAAAIAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>SCPlaylistObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.User2" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAEBEAAAAIAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>SCPlaylistObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.Label" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAEBEAAAAIAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>SCPlaylistObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.Track" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EKIAiAIiSAIBBhCAaxIAERAihjIIQAAEAAAJICAAAwA=</HashCode>
+      <FileName>SCPlaylistObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.CreatedWith" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAQAAAABAAAAAcAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>SCPlaylistObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.SCPlaylistObject" Collapsed="true">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAQwAIgQAABAABAYhYAEBAihiIJQAAAAAAIACBAAwA=</HashCode>
+      <FileName>SCPlaylistObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.SCTrackObjects" Collapsed="true">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EKIAiAIiSAIBBgCAaxIAERAihjIIQAAEAAAJICBAAwA=</HashCode>
+      <FileName>SCTrackObjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudAPI.SCUserObject" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACAQQAABAAAAQAAcIAAGBEAABEIAAQGAAAAAgAgQkA=</HashCode>
+      <FileName>SCUserObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
